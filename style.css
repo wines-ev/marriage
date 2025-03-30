@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Lincoln';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Abraham Lincoln'), url('./font/AbrahamLincoln.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Alex';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Alex Brush'), url('./font/AlexBrush-Regular.woff') format('woff');
+}
+
+.lincoln {
+    font-family:'Lincoln' !important;
+}
+
+.alex {
+    font-family:'Alex' !important;
+}
+
+.landing {
+    position: relative;
+}
+
+.landing img {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -2 !important;
+}
+
+.landing-body {
+    z-index: 4 !important;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 30rem;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0);
+}
