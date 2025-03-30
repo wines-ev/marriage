@@ -10,21 +10,28 @@ html {
 }
 
 @font-face {
-    font-family: 'Lincoln';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Abraham Lincoln'), url('./font/AbrahamLincoln.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Alex';
     font-style: normal;
     font-weight: normal;
     src: local('Alex Brush'), url('./font/AlexBrush-Regular.woff') format('woff');
 }
 
-.lincoln {
-    font-family:'Lincoln' !important;
+.roboto-300 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 .alex {
@@ -36,21 +43,28 @@ html {
 }
 
 .landing img {
-    position: absolute;
-    top: 0;
     width: 100vw;
-    z-index: -2 !important;
 }
 
 .landing-body {
-    z-index: 4 !important;
+    position: absolute;
+    top: 2rem;
+    width: 100vw;
+    height: 30rem;
+    z-index: 2;
 }
 
 .mask {
     position: absolute;
-    top: 0;
+    bottom: -1px;
     width: 100vw;
-    height: 30rem;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 0);
+    height: 3.2rem;
+    z-index: 2;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,0) 100%);
+}
+
+
+.btn:focus {
+    box-shadow: none;
 }
