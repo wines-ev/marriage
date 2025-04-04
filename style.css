@@ -61,7 +61,8 @@ html {
     width: 100vw;
     height: 17rem;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.505);
+    background: rgb(0, 0, 0);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.36691173051251746) 10%, rgba(0,0,0,0.35) 25%, rgba(0,0,0,0.35) 75%, rgba(0,0,0,0.37) 90%, rgba(0,0,0,0) 100%);
      
 }
 
