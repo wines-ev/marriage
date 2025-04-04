@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-body-secondary">
     <div class="hero">
-        <div class="header p-2 d-flex justify-content-between align-items-center shadow">
+        <div class="header position-sticky p-2 d-flex justify-content-between align-items-center shadow">
             <div class="icon">
-                <p class="mb-0 roboto-500">Home</p>
+                <p class="mb-0 roboto-300 fs-3 pt-1">HOME</p>
             </div>
             <div class="menu">
-                <div class=" p-0"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="p-0 pt-1"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars fs-3"></i>
                 </div>
                     
                 <div class="offcanvas offcanvas-start" style="width: 15rem;" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -50,43 +50,58 @@
         <div class="landing mb-2">
             
             <div class="landing-body text-center">
-                <div>
-                    <h3 class="name alex display-1 text-light mb-0">Allen & Alexis</h3>
+                <div class="names mx-auto">
+                    <h3 class="name alex display-1 text-light mb-0" style="font-size: 7rem;">Allen</h3>
+                    <h3 class="name alex display-1 text-light mb-0" style="font-size: 7rem;">& Alexis</h3>
                 </div>
-                <div id="countdown" class="d-flex justify-content-center gap-2 text-light roboto-300">
-                    <div class="d-flex flex-column justify-content-center">
-                        <p id="day" class="fs-4 mb-0">00</p>
-                        <p class="roboto-300" style="font-size: 0.7rem;">Days</p>
-                    </div>
-                    <p class="pt-1">:</p>
-                    <div class="d-flex flex-column justify-content-center">
-                        <p id="hour" class="fs-4 mb-0">00</p>
-                        <p class="roboto-300" style="font-size: 0.7rem;">Hours</p>
-                    </div>
-                    <p class="pt-1">:</p>
-                    <div class="d-flex flex-column justify-content-center">
-                        <p id="minute" class="fs-4 mb-0">00</p>
-                        <p class="roboto-300" style="font-size: 0.7rem;">Mins</p>
-                    </div>
-                    <p class="pt-1">:</p>
-                    <div class="d-flex flex-column justify-content-center">
-                        <p id="second" class="fs-4 mb-0">00</p>
-                        <p class="roboto-300" style="font-size: 0.7rem;">Secs</p>
-                    </div>
-                </div>
+                
                
 
             </div>
             <div class="mask"></div>
-            <img src="./img/bg.jpg" alt="">
+            <img src="./img/bg (2).png" alt="">
         </div>
 
         <div class="details roboto-300 px-3">
-            <p class="text-center fs-6 mb-0">We're Getting Married</p>
-            <div class="text-center">
-                <p class="mb-2"> MAY 18TH, 2025 | SAN FERNANDO, LA UNION</p>
-                <p style="font-size: 0.6rem;">We warmly invite you to witness and celebrate the love and commitment that bring us together on this special day.</p>
+            <p class="text-center fs-1 mb-0">We're Getting Married!</p>
+
+            <div id="countdown" class="d-flex justify-content-center gap-2 roboto-300">
+                <div class="d-flex flex-column justify-content-center">
+                    <p id="day" class="fs-3 mb-0">00</p>
+                    <p class="roboto-300" style="font-size: 0.7rem;">Days</p>
+                </div>
+                <p class="pt-1">:</p>
+                <div class="d-flex flex-column justify-content-center">
+                    <p id="hour" class="fs-3 mb-0">00</p>
+                    <p class="roboto-300" style="font-size: 0.7rem;">Hours</p>
+                </div>
+                <p class="pt-1">:</p>
+                <div class="d-flex flex-column justify-content-center">
+                    <p id="minute" class="fs-3 mb-0">00</p>
+                    <p class="roboto-300" style="font-size: 0.7rem;">Mins</p>
+                </div>
+                <p class="pt-1">:</p>
+                <div class="d-flex flex-column justify-content-center">
+                    <p id="second" class="fs-3 mb-0">00</p>
+                    <p class="roboto-300" style="font-size: 0.7rem;">Secs</p>
+                </div>
             </div>
+           
+            <p class="fs-6 text-center">We warmly invite you to witness and celebrate the love and commitment that bring us together on this special day.</p>
+            
+            <button class="btn btn-primary d-block mx-auto mb-5 px-5">RSVP Here</button>
+
+            <img src="img/ring_icon.png" alt="ring.png" class="d-block mx-auto" style="width: 5rem;">
+
+            <div class="text-center mb-2">
+                <p class="mb-0 fs-2"> MAY 28TH, 2025 | SAN FERNANDO, LA UNION</p>
+            </div>
+
+            
+            <p class="fs-6 text-center"> OUR LADY OF PERPETUAL HELP
+                SAN FERNANDO LA UNION </p>
+
+            <button class="btn btn-primary d-block mx-auto">View Location</button>
         </div>
     </div>
 </body>
