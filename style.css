@@ -73,7 +73,7 @@ body {
     position: relative; /* Keeps `.hero` container structure intact */
 }
 
-.nav-item a:active {
+.nav-item a:hover {
     background-color: rgb(108, 117, 125);
     color: white !important;
 }
