@@ -112,6 +112,15 @@ body {
     width: inherit;
 }
 
+.dress-con {
+    width: 40vw;
+}
+
+.dress-con img {
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
 /* Responsive adjustments for tablets */
 @media (min-width: 768px) {
     .landing-body {
