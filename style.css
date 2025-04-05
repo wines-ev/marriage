@@ -73,6 +73,10 @@ body {
     position: relative; /* Keeps `.hero` container structure intact */
 }
 
+.nav-item a:active {
+    background-color: rgb(108, 117, 125);
+    color: white !important;
+}
 
 
 .landing-body {
@@ -120,6 +124,7 @@ body {
     width: 100%;
     border-radius: 1.2rem;
 }
+
 
 /* Responsive adjustments for tablets */
 @media (min-width: 768px) {
