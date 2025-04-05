@@ -87,6 +87,16 @@ body {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.36691173051251746) 10%, rgba(0,0,0,0.35) 25%, rgba(0,0,0,0.35) 75%, rgba(0,0,0,0.37) 90%, rgba(0,0,0,0) 100%);
 }
 
+.qr-con {
+    width: 79vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.qr-con img {
+    width: 100%;
+}
+
 /* Responsive adjustments for tablets */
 @media (min-width: 768px) {
     .landing-body {
