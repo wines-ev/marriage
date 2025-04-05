@@ -88,13 +88,22 @@ body {
 }
 
 .qr-con {
-    width: 79vw;
+    width: 80vw;
     display: block;
     margin: 0 auto;
 }
 
 .qr-con img {
     width: 100%;
+}
+
+.map-con {
+    width: 90vw ;
+    overflow: hidden;
+}
+
+.map-con iframe {
+    width: inherit;
 }
 
 /* Responsive adjustments for tablets */
