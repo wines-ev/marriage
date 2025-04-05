@@ -57,10 +57,16 @@ body {
     position: relative; /* Ensures the `.landing img` doesn't interfere with absolute positioning */
 }
 
+.landing .img-con {
+    
+}
+
 .landing img {
     width: 100vw; /* Ensures full screen width for the image */
     object-fit: cover; /* Makes sure the image scales properly */
     object-position: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .hero {
