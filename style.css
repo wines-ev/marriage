@@ -65,8 +65,8 @@ body {
     width: 100vw; /* Ensures full screen width for the image */
     object-fit: cover; /* Makes sure the image scales properly */
     object-position: center;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
 }
 
 .hero {
@@ -109,6 +109,7 @@ body {
 
 .map-con {
     width: 90vw ;
+    height: fit-content;
     overflow: hidden;
 }
 
