@@ -65,8 +65,8 @@ body {
     width: 100vw; /* Ensures full screen width for the image */
     object-fit: cover; /* Makes sure the image scales properly */
     object-position: center;
-    border-bottom-left-radius: 2.5rem;
-    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius:calc(infinity * 1px);
+    border-bottom-right-radius:calc(infinity * 1px);
 }
 
 .hero {
@@ -100,8 +100,8 @@ body {
     z-index: 0;
     background: #000000;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 1) 100%);
-    border-bottom-left-radius: 2.5rem;
-    border-bottom-right-radius: 2.5rem;
+    border-bottom-left-radius:calc(infinity * 1px);
+    border-bottom-right-radius:calc(infinity * 1px);
 }
 
 .qr-con {
