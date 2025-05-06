@@ -7,7 +7,7 @@ html {
 
 body {
     background-image: url("./img/background.png");
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 
 }
 
@@ -180,6 +180,11 @@ body {
     right: -5rem;
     bottom: -3rem;
     
+}
+
+.link-button {
+    background-color: rgb(155, 155, 155);
+    border: 1px solid black;
 }
 
 /* Responsive adjustments for tablets */
