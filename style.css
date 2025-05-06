@@ -7,7 +7,7 @@ html {
 
 body {
     background-image: url("./img/background.png");
-    
+    overflow-x: hidden;
 
 }
 
@@ -154,14 +154,13 @@ body {
     width: 30rem;
     opacity: 0.4;
     z-index: -1;
-
+    border-radius: 1rem;
 }
 
 .detail-1 .detail-bg {
     left: -5rem;
     bottom: -5rem;
     transform: rotate(10deg);
-    
 }
 
 .detail-2 .detail-bg {
