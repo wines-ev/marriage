@@ -8,7 +8,6 @@ html {
 body {
     background-image: url("./img/background.png");
     overflow-x: hidden !important;
-
 }
 
 * {
@@ -145,8 +144,14 @@ body {
     margin-top: -12px !important;
 }
 
+.details {
+    overflow-x: hidden;
+}
+
 .detail {
     position: relative;
+ 
+
 }
 
 .detail .detail-bg {
