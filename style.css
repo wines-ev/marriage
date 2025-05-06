@@ -192,6 +192,10 @@ body {
     border: 1px solid black;
 }
 
+video {
+    width: 100%;
+}
+
 /* Responsive adjustments for tablets */
 @media (min-width: 768px) {
     .landing-body {
