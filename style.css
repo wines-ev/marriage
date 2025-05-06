@@ -160,26 +160,26 @@ body {
 .detail-1 .detail-bg {
     left: -5rem;
     bottom: -5rem;
-    transform: rotate(10deg);
+    
 }
 
 .detail-2 .detail-bg {
     right: -8rem;
     bottom: -5rem;
-    transform: rotate(10deg);
+    
 }
 
 
 .detail-3 .detail-bg {
     left: -5rem;
     bottom: 1rem;
-    transform: rotate(10deg);
+    
 }
 
 .detail-4 .detail-bg {
     right: -5rem;
     bottom: -3rem;
-    transform: rotate(10deg);
+    
 }
 
 /* Responsive adjustments for tablets */
