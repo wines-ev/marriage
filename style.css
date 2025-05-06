@@ -11,6 +11,10 @@ body {
 }
 
 * {
+    font-weight: 400;
+}
+
+* {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -19,19 +23,20 @@ body {
 @font-face {
     font-family: 'Alex';
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     src: local('Alex Brush'), url('./font/AlexBrush-Regular.woff') format('woff');
 }
 
 body {
     overflow-x: hidden;
+    
 }
 
 .roboto-300 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-style: normal;
+    font-style: bold;
     font-variation-settings:
     "wdth" 100;
 }
@@ -157,33 +162,33 @@ body {
 .detail .detail-bg {
     position: absolute;
     width: 30rem;
-    opacity: 0.4;
+    opacity: 0.7;
     z-index: -1;
     border-radius: 1rem;
 }
 
 .detail-1 .detail-bg {
     left: -5rem;
-    bottom: -5rem;
+    bottom: -13rem;
     
 }
 
 .detail-2 .detail-bg {
     right: -8rem;
-    bottom: -5rem;
+    bottom: -14rem;
     
 }
 
 
 .detail-3 .detail-bg {
     left: -5rem;
-    bottom: 1rem;
+    bottom: -13rem;
     
 }
 
 .detail-4 .detail-bg {
     right: -5rem;
-    bottom: -3rem;
+    bottom: -10rem;
     
 }
 
