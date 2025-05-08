@@ -197,6 +197,12 @@ video {
     width: 100%;
 }
 
+.entourage-con h3 {
+    font-family: Alex;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 /* Responsive adjustments for tablets */
 @media (min-width: 768px) {
     .landing-body {
